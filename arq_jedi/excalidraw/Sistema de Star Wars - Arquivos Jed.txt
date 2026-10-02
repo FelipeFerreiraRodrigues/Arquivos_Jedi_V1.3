@@ -1,0 +1,21 @@
+Sistema de Star Wars - Arquivos Jedi
+- Sistema parecido com uma Wiki
+- Funcionará com sistema CRUD
+- Terá sistema de login .|||
+- Administrador pode adicionar, atualizar informações (pode fazer todo processo CRUD)
+- Usuário pode apenas ler
+- Header e Footer serão via include .|||
+- Poderá mudar entre paginas .|||
+- Conterá imagens .|||
+- Terão informações do verso de Star Wars, como planetas, personagens, grupos, raças e etc
+- Usuário normal poderá logar, deslogar de sua conta, assim como o Administrador .
+- Relacionamento entre conteúdos (Certa página mostrará outros links com conteúdos parecidos/relacionados)
+- Certas informações serão confidenciais e pedirão senha ate ao Administrador
+- Histórico de Alterações
+- Busca Avançada
+- Imagens em Aurebesh/Básico para títulos
+- Tag entre Cânone e Legends
+
+if(isset($usuario['nivel']=='adm')){
+
+}
