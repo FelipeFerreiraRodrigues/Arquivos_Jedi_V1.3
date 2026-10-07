@@ -27,7 +27,8 @@
             <!--Aqui será uma espécie de "Sobre nós"-->
             <h2>Bem-Vindo aos Arquivos Jedi!</h2>
             <img src="imagens/altarepub.jpeg" alt="Jedis Alta República" width="500px">
-            <p>Lorem Ipsum</p>
+            <p>Os Arquivos Jedis se tratam de uma vasta biblioteca de informações sobre tudo<br> conhecido na galáxia, possuindo registros de história, mapas, ciência, cultura e etc...
+            </p>
         </section>
     </div>
 

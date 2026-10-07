@@ -28,7 +28,7 @@
             <!--Resumo do que se trata essa pagina-->
             <h2>Grupos Conhecidos</h2>
             <img src="../imagens/mando.jpg" alt="Foto Mandalorianos" width="450px">
-            <p>Lorem Ipsum</p>
+            <p>Aqui se encontram os registros de todos os grupos conhecidos na galáxia, <br> sejam religiosos, criminosos e etc... Alguns são históricos e foram <br> exterminados, portanto, não existe uma contagem exata de membros, <br> tampouco o nome de cada membro</p>
         </section>
     </div>
 
@@ -36,7 +36,7 @@
         <section>
             <!--Link que levara a sequencia da pagina-->
             <h3>Lista de Grupos</h3>
-            <p>Lorem Ipsum</p>
+            <p>Acesse abaixo a lista de grupos</p>
             <a href="grupos2/intro.php">Ir a lista de grupos</a>
         </section>
     </div>

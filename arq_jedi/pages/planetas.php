@@ -27,13 +27,13 @@
         <!--Resumo do que a pagina se trata-->
         <h2>Planetas Conhecidos</h2>
         <img src="../imagens/coruscant.jpg" alt="Planeta Coruscant">
-        <p>Lorem Ipsum</p>
+        <p>Aqui se encontram os registros de todos os planetas conhecidos <br> da galáxia, com seu nome, região que se encontra na galáxia e <br> sua geografia de acordo com o histórico conhecido.</p>
     </div>
 
     <div>
         <!--Levará a outra pagina-->
         <h3>Planetas Catalogados</h3>
-        <p>Lorem Ipsum</p>
+        <p>Acesse abaixo a lista de planetas</p>
         <a href="planetas2/planread.php">Ir a lista de planetas</a>
     </div>
 

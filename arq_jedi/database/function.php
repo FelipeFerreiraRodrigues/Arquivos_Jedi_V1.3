@@ -174,9 +174,19 @@ try {
     foreach ($planetas as $planeta){
         echo "ID: {$planeta['id']}<br>";
         echo "Nome: {$planeta['nome']}<br>";
-        echo "Origem: {$planeta['regiao']}<br>";
+        echo "Região: {$planeta['regiao']}<br>";
         echo "Geografia: {$planeta['geografia']}<br>";
-        echo "<img src='{$planeta['url_image']}' alt='{$planeta['nome']}' style='max-width: 200px;'><br><hr>";
+        $image = trim($planeta['url_image']);
+            //Verificar se existe arquivo
+            if (!empty($image) && file_exists($image)) {
+                //Imprimir imagem
+                echo "<img src='{$planeta['url_image']}' alt='{$planeta['nome']}'   style='max-width: 200px;'><br><hr>";
+            } elseif (!empty($image)) {
+                //Se não é arquivo, imprime a URL
+                echo "<img src='{$image}' alt='{$planeta['nome']}' style='max-width: 200px;'><br><hr>";
+            } else {
+                echo "Erro: A imagem falhou em carregar";
+        }
     }
 
 } catch (PDOException $e){
@@ -193,7 +203,7 @@ function readid_plan($conexao, $id){
 
             $planeta = $stmt->fetch(PDO::FETCH_ASSOC);
             echo "Nome: {$planeta['nome']}<br>";
-            echo "Origem: {$planeta['regiao']}<br>";
+            echo "Região: {$planeta['regiao']}<br>";
             echo "Geografia:: {$planeta['geografia']}<br>";
             echo "<img src='{$planeta['url_image']}' alt='{$planeta['nome']}' style='max-width: 200px;'><br><hr>";
 } catch (PDOException $e) {
@@ -264,7 +274,17 @@ try {
         echo "Nome: {$darth['nome']}<br>";
         echo "Hierarquia: {$darth['hierarquia']}<br>";
         echo "Ano: {$darth['ano']}<br>";
-        echo "<img src='{$darth['url_image']}' alt='{$darth['nome']}' style='max-width: 200px;'><br><hr>";
+        $image = trim($darth['url_image']);
+            //Verificar se existe arquivo
+            if (!empty($image) && file_exists($image)) {
+                //Imprimir imagem
+                echo "<img src='{$darth['url_image']}' alt='{$darth['nome']}'   style='max-width: 200px;'><br><hr>";
+            } elseif (!empty($image)) {
+                //Se não é arquivo, imprime a URL
+                echo "<img src='{$image}' alt='{$darth['nome']}' style='max-width: 200px;'><br><hr>";
+            } else {
+                echo "Erro: A imagem falhou em carregar";
+        }
     }
 
 } catch (PDOException $e){

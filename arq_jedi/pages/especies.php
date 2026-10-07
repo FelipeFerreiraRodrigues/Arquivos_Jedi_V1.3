@@ -28,7 +28,7 @@
             <!--Resumo do que se trata a pagina-->
             <h2>Espécies Conhecidas</h2>
             <img src="../imagens/especies.png" alt="Imagem Espécies Conhecidas" width="335px">
-            <p>Lorem Ipsum</p>
+            <p>Aqui se encontram os registros de todas as espécies conhecidas <br> da galáxia, com seu nome popular, planeta de origem, idade <br> máxima estimada e verificação de sensitividade a Força de acordo <br> com o histórico conhecido.</p>
         </section>
     </div>
 
@@ -36,7 +36,7 @@
         <section>
             <!--Continuação da pagina-->
             <h3>Lista de Espécies</h3>
-            <p>Lorem Ipsum</p>
+            <p>Acesse abaixo a lista de espécies</p>
             <a href="especies2/espread.php">Ir a lista de Espécies</a>
         </section>
     </div>

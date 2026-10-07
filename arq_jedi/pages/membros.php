@@ -5,7 +5,7 @@ include '../database/function.php'?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste 2</title>
+    <title>Membros Ordem Jedi</title>
 </head>
 <body>
     <section>
@@ -29,7 +29,7 @@ include '../database/function.php'?>
             <!--Explicação do que a pagina se trata-->
             <h2>Membros da Ordem Jedi</h2>
             <img src="../imagens/altarepub2.jpg" alt="Membros Ordem Jedi" width="500px">
-            <p>Lorem Ipsum</p>
+            <p>Aqui se encontram os registros de cada membro da Ordem Jedi que possui acesso aos Arquivos Jedi</p>
         </section>
     </div>
 
