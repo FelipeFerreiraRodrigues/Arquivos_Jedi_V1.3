@@ -1,4 +1,5 @@
 <?php include '../../../login/vefuser.php';
+include '../../../login/confidencial.php';
 include '../../../database/function.php'?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -38,6 +39,8 @@ include '../../../database/function.php'?>
 
         </section>
     </div>
+
+    <a href="?off_conf=1">Sair do Modo Confidencial</a>
 
     <div>
         <section>

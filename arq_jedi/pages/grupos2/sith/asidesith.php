@@ -4,6 +4,7 @@
     <nav>
         <ul>
             <li><a href="../intro.php">Voltar</a></li>
+            <li><a href="start.php">Inicial</a></li>
             <li><a href="sithcreate.php">Registrar</a></li>
             <li><a href="sithdelete.php">Deletar</a></li>
             <li><a href="sithread.php">Listar</a></li>

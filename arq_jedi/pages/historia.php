@@ -35,16 +35,16 @@
         <section>
             <h3>Eras da Galáxia</h3>
             <p>Aqui, estão documentadas todas as chamadas "eras" da história galáctica.</p>
-            <a href="">Alvorecer dos Jedi</a>
-            <a href="">A Velha República</a>
-            <a href="">A Alta República</a>
-            <a href="">A Queda dos Jedi</a>
-            <a href="">Reinado do Império</a>
-            <a href="">Era da Rebelião</a>
-            <a href="">A Nova República</a>
-            <a href="">Primeira Ordem</a>
-            <a href="">Nova Ordem Jedi</a>
-            <a href="">Legado</a>
+            <a href="historia/alvorecer.php">Alvorecer dos Jedi</a>
+            <a href="historia/velha.php">A Velha República</a>
+            <a href="historia/alta.php">A Alta República</a>
+            <a href="historia/queda.php">A Queda dos Jedi</a>
+            <a href="historia/imperio.php">Reinado do Império</a>
+            <a href="historia/rebeliao.php">Era da Rebelião</a>
+            <a href="historia/novarep.php">A Nova República</a>
+            <a href="historia/ordem.php">Primeira Ordem</a>
+            <a href="historia/novajed.php">Nova Ordem Jedi</a>
+            <a href="historia/legado.php">Legado</a>
         </section>
     </div>
 

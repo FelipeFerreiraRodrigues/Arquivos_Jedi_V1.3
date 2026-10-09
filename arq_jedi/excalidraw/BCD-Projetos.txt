@@ -1,0 +1,3 @@
+- Product Backlog -> Quase pronto, falta colocar algumas coisas básicas e ajeitar outras coisas
+- Diagrama Entidade Relacionamento (D.E.R) do  projeto - Tenho que fazer
+- Dicionário de dados - Tenho que fazer

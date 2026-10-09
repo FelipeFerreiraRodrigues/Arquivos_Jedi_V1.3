@@ -31,6 +31,7 @@
                 if($usuario['email'] == $_POST['email'] && $usuario['passwd'] == $_POST['passwd']){
                     session_start();
                     $_SESSION['id'] = $usuario['id'];
+                    $_SESSION['is_admin'] = filter_var($usuario['is_admin'], FILTER_VALIDATE_BOOLEAN);
                     header("Location: ../index.php");
                     exit();
                 } else {

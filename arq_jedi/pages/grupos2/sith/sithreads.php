@@ -1,4 +1,5 @@
 <?php include '../../../login/vefuser.php';
+include '../../../login/confidencial.php';
 include '../../../database/function.php'?>
 
 <!DOCTYPE html>
@@ -46,6 +47,8 @@ include '../../../database/function.php'?>
             <h2>Aqui será onde ficará o READ select da página</h2>
         </section>
     </div>
+    
+    <a href="?off_conf=1">Sair do Modo Confidencial</a>
 
     <div>
         <section>

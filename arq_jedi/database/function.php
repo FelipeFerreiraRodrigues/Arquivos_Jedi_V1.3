@@ -16,7 +16,7 @@ function cadastraruser($conexao, $email, $passwd){
 }
 
 function loginuser($conexao, $email){
-    $sql = "SELECT id, email, passwd FROM usuarios WHERE email = :email";
+    $sql = "SELECT id, email, passwd, is_admin FROM usuarios WHERE email = :email";
     try {
         $stmt = $conexao->prepare($sql);
         $stmt->bindParam(":email", $email);
