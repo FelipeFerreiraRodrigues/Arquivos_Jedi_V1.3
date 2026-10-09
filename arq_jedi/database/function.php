@@ -30,7 +30,7 @@ function loginuser($conexao, $email){
 }
 
 function listuser($conexao){
-    $sql = "SELECT id, email FROM usuarios";
+    $sql = "SELECT id, email FROM usuarios WHERE is_admin = FALSE";
     try {
         $stmt = $conexao->prepare($sql);
         $stmt->execute();
